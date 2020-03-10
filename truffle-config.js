@@ -6,7 +6,7 @@ module.exports = {
   networks: {
     rinkeby: {
       provider: function () {
-        return new HDWalletProvider("76be542abb27f49ce2be661351d2a0463642c317a6694f38d9b6d648811d18d0", "https://rinkeby.infura.io/v3/c165e182bccd41a39ccec19e29830d77")
+        return new HDWalletProvider("2abb27f49ce2be661351d2a317a6694f38d9b6d648811d18d0", "https://rinkeby.infura.io/v3/c165e182bccd41a39ccec19e29830d77")
       },
       network_id: 4
     }
